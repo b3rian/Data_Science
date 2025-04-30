@@ -1,6 +1,4 @@
-def regitered_user(name, age, country = 'USA', verified = False):
-    print(f"Registered: {name}, {age} from {country} (verified: {verified})")
-
-xy = regitered_user(age = 30, name = 'Bob', verified=True)
-print(xy)
+import pandas as pd
+dataset = pd.read_csv(r"C:\Users\ADMIN\Downloads\US+Baby+Names+MySQL\names_data.csv")
+print(dataset.shape)
  
